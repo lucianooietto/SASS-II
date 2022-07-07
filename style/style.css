@@ -1,0 +1,60 @@
+.bgHeader {
+  background-color: #e8bf90;
+}
+.bgHeader .titulos {
+  transition: 0.5s;
+  font-size: 80px;
+  color: #fff;
+}
+.bgHeader .titulos:hover {
+  color: #000;
+  font-size: 100px;
+  transform: translateY(10px);
+}
+.bgHeader .miniTitulo {
+  transition: 0.5s;
+  font-weight: 500;
+  font-size: 80px;
+  color: #fff;
+}
+.bgHeader .miniTitulo:hover {
+  color: #000;
+  font-size: 100px;
+  transform: translateY(10px);
+}
+.bgHeader .logoIndex {
+  padding-left: 100px;
+}
+.bgHeader .cool-btn {
+  padding: 2rem;
+  width: 50%;
+  background-color: transparent;
+  border: solid 1px white;
+  color: white;
+  transition: 0.5s;
+}
+.bgHeader .cool-btn:hover {
+  transform: translateY(15px);
+}
+
+#productos .titulo-productos1 {
+  color: #fff;
+}
+#productos .carrusel {
+  padding-left: 100px;
+}
+
+.btn-twitter {
+  background-color: #55acee;
+  color: white;
+}
+
+.btn-facebook {
+  background-color: #3a5795;
+  color: white;
+}
+
+.btn-instagram {
+  background-color: #9c0e42;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

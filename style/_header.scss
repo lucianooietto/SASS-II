@@ -1,0 +1,60 @@
+@import "./varibles";
+
+.bgHeader{
+    background-color: $bgPrimary;
+    .titulos{
+        &:hover{
+            color: #000;
+            font-size: 100px;
+            transform: translateY(10px);
+        }
+        transition: 0.5s;
+        font-size: 80px;
+        color: $letras;
+    }
+    .miniTitulo{
+        &:hover{
+            color: #000;
+            font-size: 100px;
+            transform: translateY(10px);
+        }
+        transition: 0.5s;
+        font-weight: $fwidth2;
+        font-size: 80px;
+        color: $letras;
+    }
+    .logoIndex{
+        padding-left: 100px;
+    }
+    .cool-btn{
+        padding: 2rem;
+        width: 50%;
+        background-color: transparent;
+        border:solid 01px #ffff;
+        color: #ffff;
+        transition: 0.5s;
+        &:hover{
+            transform: translateY(15px);
+        }
+    }
+}
+#productos{
+    .titulo-productos1{
+        color: $letras;
+    }
+    .carrusel{
+        padding-left: 100px;
+    }
+}
+@each $redSocial, $color in $redes {
+    .btn-#{$redSocial}{
+        background-color: $color;
+        color: #ffff;
+    }
+}
+
+#footer{
+    #redes{
+        
+}
+}
